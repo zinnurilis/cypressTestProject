@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div>
-      {isLoggedIn ? (
+      {isLoggedIn ? 
         <Success />
       ) : (
         <Login onLoginSuccess={() => setIsLoggedIn(true)} />
